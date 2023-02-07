@@ -2,8 +2,13 @@
 
 
 @import "./blocks/header";
+@import "./blocks/card";
 
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: 'Rubik', sans-serif;
+  row-gap: 50px;
 }
